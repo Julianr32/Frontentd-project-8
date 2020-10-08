@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="578" height="385" viewBox="0 0 578 385">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.99" y1="0.717" x2="0.025" y2="0.29" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#151515"/>
+      <stop offset="1" stop-color="#3d3d3d"/>
+    </linearGradient>
+  </defs>
+  <g id="illustration-hero" transform="translate(-0.5 -0.5)">
+    <g id="Grupo_17" data-name="Grupo 17" transform="translate(0.5 0.5)">
+      <g id="Grupo_10" data-name="Grupo 10">
+        <rect id="Rectángulo_14" data-name="Rectángulo 14" width="578" height="385" rx="26"/>
+        <rect id="Rectángulo_15" data-name="Rectángulo 15" width="578" height="385" rx="26" fill="#777"/>
+      </g>
+      <rect id="Rectángulo_16" data-name="Rectángulo 16" width="574.23" height="381.865" rx="25" transform="translate(2 2)" fill="url(#linear-gradient)"/>
+      <g id="Grupo_16" data-name="Grupo 16" transform="translate(21.03 16.303)">
+        <rect id="Rectángulo_17" data-name="Rectángulo 17" width="471.463" height="353.756" rx="5" transform="translate(33)" fill="#2a2a2a" opacity="0.1"/>
+        <rect id="Rectángulo_18" data-name="Rectángulo 18" width="536" height="346" rx="8" transform="translate(0 3)" fill="#e8eaf6"/>
+        <g id="Grupo_13" data-name="Grupo 13">
+          <path id="Trazado_17" data-name="Trazado 17" d="M-3.53,3.2h547v59h-547Z" fill="#5267df" fill-rule="evenodd"/>
+          <g id="Grupo_12" data-name="Grupo 12" transform="translate(22.47 17.197)">
+            <circle id="Elipse_5" data-name="Elipse 5" cx="16" cy="16" r="16" fill="#fff" opacity="0.245"/>
+            <circle id="Elipse_6" data-name="Elipse 6" cx="16" cy="16" r="16" transform="translate(461)" fill="#fff" opacity="0.104"/>
+            <g id="Grupo_11" data-name="Grupo 11" transform="translate(47 6)">
+              <rect id="Rectángulo_19" data-name="Rectángulo 19" width="120" height="6" rx="3" fill="#fff" opacity="0.75"/>
+              <rect id="Rectángulo_20" data-name="Rectángulo 20" width="64" height="6" rx="3" transform="translate(0 14)" fill="#fff" opacity="0.25"/>
+            </g>
+          </g>
+        </g>
+        <g id="Grupo_15" data-name="Grupo 15">
+          <g id="Grupo_14" data-name="Grupo 14" transform="translate(57 96)">
+            <rect id="Rectángulo_21" data-name="Rectángulo 21" width="261" height="253" rx="8" fill="#fff"/>
+            <rect id="Rectángulo_22" data-name="Rectángulo 22" width="128" height="253" rx="8" transform="translate(295)" fill="#fff"/>
+            <rect id="Rectángulo_23" data-name="Rectángulo 23" width="120" height="6" rx="3" transform="translate(78.47 38.197)" fill="#242a45" opacity="0.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_18" data-name="Grupo 18" transform="translate(110 135)">
+      <circle id="Elipse_7" data-name="Elipse 7" cx="16" cy="16" r="16" transform="translate(0 10)" fill="#f98e5d"/>
+      <rect id="Rectángulo_24" data-name="Rectángulo 24" width="88" height="6" rx="3" transform="translate(284)" fill="#242a45" opacity="0.25"/>
+      <rect id="Rectángulo_25" data-name="Rectángulo 25" width="88" height="6" rx="3" transform="translate(284 20)" fill="#242a45" opacity="0.25"/>
+      <rect id="Rectángulo_26" data-name="Rectángulo 26" width="88" height="6" rx="3" transform="translate(284 40)" fill="#242a45" opacity="0.25"/>
+      <rect id="Rectángulo_27" data-name="Rectángulo 27" width="88" height="6" rx="3" transform="translate(284 60)" fill="#242a45" opacity="0.25"/>
+      <rect id="Rectángulo_28" data-name="Rectángulo 28" width="88" height="6" rx="3" transform="translate(284 94)" fill="#242a45" opacity="0.25"/>
+      <rect id="Rectángulo_29" data-name="Rectángulo 29" width="88" height="6" rx="3" transform="translate(284 114)" fill="#242a45" opacity="0.25"/>
+      <rect id="Rectángulo_30" data-name="Rectángulo 30" width="88" height="6" rx="3" transform="translate(284 134)" fill="#242a45" opacity="0.25"/>
+      <rect id="Rectángulo_31" data-name="Rectángulo 31" width="64" height="6" rx="3" transform="translate(47 30)" fill="#242a45" opacity="0.25"/>
+    </g>
+    <g id="Grupo_19" data-name="Grupo 19" transform="translate(110 201)">
+      <circle id="Elipse_8" data-name="Elipse 8" cx="16" cy="16" r="16" fill="#6ac6d6"/>
+      <rect id="Rectángulo_32" data-name="Rectángulo 32" width="120" height="6" rx="3" transform="translate(47 6)" fill="#242a45" opacity="0.5"/>
+      <rect id="Rectángulo_33" data-name="Rectángulo 33" width="64" height="6" rx="3" transform="translate(47 20)" fill="#242a45" opacity="0.25"/>
+    </g>
+    <g id="Grupo_20" data-name="Grupo 20" transform="translate(110 257)">
+      <circle id="Elipse_9" data-name="Elipse 9" cx="16" cy="16" r="16" fill="#a47ed4"/>
+      <rect id="Rectángulo_34" data-name="Rectángulo 34" width="120" height="6" rx="3" transform="translate(47 6)" fill="#242a45" opacity="0.5"/>
+      <rect id="Rectángulo_35" data-name="Rectángulo 35" width="64" height="6" rx="3" transform="translate(47 20)" fill="#242a45" opacity="0.25"/>
+    </g>
+    <g id="Grupo_21" data-name="Grupo 21" transform="translate(110 313)">
+      <circle id="Elipse_10" data-name="Elipse 10" cx="16" cy="16" r="16" fill="#ec7878"/>
+      <rect id="Rectángulo_36" data-name="Rectángulo 36" width="120" height="6" rx="3" transform="translate(47 6)" fill="#242a45" opacity="0.5"/>
+      <rect id="Rectángulo_37" data-name="Rectángulo 37" width="64" height="6" rx="3" transform="translate(47 20)" fill="#242a45" opacity="0.25"/>
+    </g>
+  </g>
+</svg>

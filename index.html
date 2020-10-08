@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Frontend Mentor | Bookmark landing page</title>
+</head>
+
+<body>
+  <!-- ===HEADER=== -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav align-center">
+        <div class="nav__logo">
+          <a href="index.html">
+            <img src="images/logo-bookmark.svg" alt="Logo" />
+          </a>
+        </div>
+
+        <ul class="nav__list display align-center">
+          <li><a href="#" class="nav__link">Features</a></li>
+          <li><a href="#" class="nav__link">Pricing</a></li>
+          <li><a href="#" class="nav__link">Contact</a></li>
+          <li><a href="#" class="btn-red btn">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ===END HEADER=== -->
+
+  <!-- ===HERO=== -->
+  <section class="container hero pdy-5 align-center">
+    <div class="hero__info">
+      <h1>A Simple Bookmark Manager</h1>
+      <p>
+        A clean and simple interface to organize your favourite websites. Open
+        a new browser tab and see your sites load instantly. Try it for free.
+      </p>
+      <a href="#" class="btn btn-blue">Get it on Chrome</a>
+      <a href="#" class="btn btn-ghost">Get it on Firefox</a>
+    </div>
+    <div class="hero__img">
+      <img src="images/illustration-hero-fixed.svg" alt="Tablet" />
+    </div>
+  </section>
+  <!-- ===END-HERO=== -->
+
+  <!-- ===FEATURES=== -->
+  <section class="container features pdy-5">
+    <div class="section-header">
+      <h2>Features</h2>
+      <p>
+        Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmarks sync between your devices so you can access
+        them on the go.
+      </p>
+    </div>
+
+    <div class="features-wrapper align-center">
+      <div class="btn-container align-center">
+        <button class="tab-btn active" data-id="bookmarking">
+          Simple Bookmarking
+        </button>
+        <button class="tab-btn" data-id="searching">Speedy Searching</button>
+        <button class="tab-btn" data-id="sharing">Easy Sharing</button>
+      </div>
+
+      <!-- ===Feature 1=== -->
+      <div class="feature active" id="bookmarking">
+        <div class="feature__img">
+          <img src="images/illustration-features-tab-1.svg" alt="Webpage" />
+        </div>
+        <div class="feature__info">
+          <h2>Bookmark in one click</h2>
+          <p>
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+          <a href="#" class="btn-blue btn">More Info</a>
+        </div>
+      </div>
+      <!-- ===End Feature 1=== -->
+
+      <!-- ===Feature 2=== -->
+      <div class="feature" id="searching">
+        <div class="feature__img">
+          <img src="images/illustration-features-tab-2.svg" alt="Webpage" />
+        </div>
+        <div class="feature__info">
+          <h2>Intelligent search</h2>
+          <p>
+            Our powerful search feature will help you find saved sites in no
+            time at all. No need to trawl through all of your bookmarks.
+          </p>
+          <a href="#" class="btn-blue btn">More Info</a>
+        </div>
+      </div>
+      <!-- ===End Feature 2=== -->
+
+      <!-- ===Feature 3=== -->
+      <div class="feature" id="sharing">
+        <div class="feature__img">
+          <img src="images/illustration-features-tab-3.svg" alt="Webpage" />
+        </div>
+        <div class="feature__info">
+          <h2>Share your bookmarks</h2>
+          <p>
+            Easily share your bookmarks and collections with others. Create a
+            shareable link that you can send at the click of a button.
+          </p>
+          <a href="#" class="btn-blue btn">More Info</a>
+        </div>
+      </div>
+      <!-- ===End Feature 3=== -->
+    </div>
+  </section>
+  <!-- ===END-FEATURES=== -->
+
+  <!-- ===EXTENSION=== -->
+  <section class="container extension pdy-5">
+    <div class="section-header">
+      <h2>Download the extension</h2>
+      <p>
+        We’ve got more browsers in the pipeline. Please do let us know if
+        you’ve got a favourite you’d like us to prioritize.
+      </p>
+    </div>
+
+    <!-- ==CARDS==-->
+    <div class="cards-wrapper align-center">
+      <!-- ==CARD-1== -->
+      <div class="card align-center">
+        <img src="images/logo-chrome.svg" alt="Google Chrome" class="browser" />
+        <div class="space">
+          <h4>Add to Chrome</h4>
+          <h5>Minimum version 62</h5>
+        </div>
+        <img src="images/bg-dots.svg" alt="Decoration img" class="bg-dots" />
+        <a href="#" class="btn btn-blue">Add & Install Extension</a>
+      </div>
+      <!-- ==END-CARD-1== -->
+
+      <!-- ==CARD-2== -->
+      <div class="card card-2 align-center">
+        <img src="images/logo-firefox.svg" alt="Mozilla Firefox" class="browser" />
+        <div class="space">
+          <h4>Add to Firefox</h4>
+          <h5>Minimum version 55</h5>
+        </div>
+        <img src="images/bg-dots.svg" alt="Decoration img" class="bg-dots" />
+        <a href="#" class="btn btn-blue">Add & Install Extension</a>
+      </div>
+      <!-- ==END-CARD-2== -->
+
+      <!-- ==CARD-3== -->
+      <div class="card card-3 align-center">
+        <img src="images/logo-opera.svg" alt="Opera" class="browser-opera" />
+        <div class="space">
+          <h4>Add to Opera</h4>
+          <h5>Minimum version 55</h5>
+        </div>
+        <img src="images/bg-dots.svg" alt="Decoration img" class="bg-dots" />
+        <a href="#" class="btn btn-blue">Add & Install Extension</a>
+      </div>
+      <!-- ==END-CARD-3== -->
+    </div>
+  </section>
+  <!-- ===END-EXTENSION=== -->
+
+  <!-- ===FAQ=== -->
+  <section class="container faq pdy-5 align-center">
+    <div class="section-header">
+      <h2>Frequently Asked Questions</h2>
+      <p>
+        Here are some of our FAQs. If you have any other questions you’d like
+        answered please feel free to email us.
+      </p>
+    </div>
+    <!-- ==QUESTION-1 -->
+    <div class="question">
+      <div class="question__title align-center">
+        <h3>What is Bookmark?</h3>
+        <button type="button" class="question-btn">
+          <img src="images/icon-arrow.svg" alt="Arrow down" class="arrow-down" />
+        </button>
+      </div>
+      <div class="question__answer">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+          tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+          quis quam ornare mattis.
+        </p>
+      </div>
+    </div>
+    <!-- ==END-QUESTION-1== -->
+    <!-- ==QUESTION-2== -->
+    <div class="question">
+      <div class="question__title align-center">
+        <h3>How can I request a new browser?</h3>
+        <button type="button" class="question-btn">
+          <img src="images/icon-arrow.svg" alt="Arrow down" class="arrow-down" />
+        </button>
+      </div>
+      <div class="question__answer">
+        <p>
+          Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+          ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros
+          aliquet convallis ultricies. Mauris augue massa, ultricies non
+          ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis
+          ultricies. Mauris augue massa, ultricies non ligula. Suspendisse
+          imperdiet.
+        </p>
+      </div>
+    </div>
+    <!-- ==END-QUESTION-2== -->
+    <!-- ==QUESTION-3==-->
+    <div class="question">
+      <div class="question__title align-center">
+        <h3>Is there a mobile app?</h3>
+        <button type="button" class="question-btn">
+          <img src="images/icon-arrow.svg" alt="Arrow down" class="arrow-down" />
+        </button>
+      </div>
+      <div class="question__answer">
+        <p>
+          Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+          vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula
+          quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin
+          ex et ultricies bibendum.
+        </p>
+      </div>
+    </div>
+    <!-- ==END-QUESTION-3== -->
+    <!-- ==QUESTION-4==-->
+    <div class="question">
+      <div class="question__title align-center">
+        <h3>What about other Chromium browsers?</h3>
+        <button type="button" class="question-btn">
+          <img src="images/icon-arrow.svg" alt="Arrow down" class="arrow-down" />
+        </button>
+      </div>
+      <div class="question__answer">
+        <p>
+          Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat
+          mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+          pellentesque non ut velit.
+        </p>
+      </div>
+    </div>
+    <!-- ==END-QUESTION-4== -->
+    <a href="#" class="btn btn-blue">More info</a>
+  </section>
+  <!-- ===END-FAQ=== -->
+
+  <!-- ===FOOTER=== -->
+  <footer class="footer">
+    <section class="footer1 align-center">
+      <span class="span">35,000+ already joined</span>
+      <p>Stay up-to-date with what we’re doing</p>
+
+      <div class="form align-center">
+        <div class="email">
+          <input type="email" name="email" id="input-email" placeholder="Enter your email adress" />
+          <div class="alert-message">
+            <span class="alert-span"></span>
+          </div>
+          <img src="images/icon-error.svg" alt="Error alert" class="error-icon">
+        </div>
+        <button type="submit" class="btn btn-red form-btn">Contact us</button>
+      </div>
+    </section>
+    <section class="container footer2 align-center">
+      <div class="footer-nav align-center">
+        <img src="images/logo-bookmark-inverse.svg" alt="Company Logo" class="nav__logo" />
+        <a href="#" class="nav__link">Features</a>
+        <a href="#" class="nav__link">Pricing</a>
+        <a href="#" class="nav__link">Contact</a>
+      </div>
+
+      <div class="footer-media align-center">
+        <a href="#">
+          <img src="images/icon-facebook.svg" alt="Facebook" />
+        </a>
+        <a href="#">
+          <img src="images/icon-twitter.svg" alt="Twitter" />
+        </a>
+      </div>
+    </section>
+    <span class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Julian Rebolledo</a>.
+    </span>
+  </footer>
+  <!-- ===END-FOOTER=== -->
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
