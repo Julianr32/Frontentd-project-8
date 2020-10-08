@@ -136,7 +136,8 @@ p {
 
 .section-header {
   margin: 0 auto;
-  width: 45%;
+  max-width: 450px;
+  width: 100%;
   text-align: center;
 }
 
@@ -399,7 +400,7 @@ p {
   text-align: center;
 }
 
-.footer .footer1 {
+.footer .footer-top {
   justify-content: center;
   flex-direction: column;
   background-color: #5368df;
@@ -407,40 +408,40 @@ p {
   width: 100%;
 }
 
-.footer .footer1 .span {
+.footer .footer-top .span {
   color: white;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
 
-.footer .footer1 p {
+.footer .footer-top p {
   margin: 2rem auto;
   width: 30%;
   font-size: 2.8rem;
   color: white;
 }
 
-.footer .footer1 .form {
+.footer .footer-top .form {
   width: 100%;
   justify-content: center;
 }
 
-.footer .footer1 .form .email {
+.footer .footer-top .form .email {
   position: relative;
   max-width: 350px;
   width: 100%;
   z-index: 10;
 }
 
-.footer .footer1 .form .email input[type="email"] {
+.footer .footer-top .form .email input[type="email"] {
   padding: 1.2rem 1rem;
   width: 100%;
   border-radius: 5px;
   border: none;
 }
 
-.footer .footer1 .form .email .alert-message {
+.footer .footer-top .form .email .alert-message {
   position: absolute;
   height: 60px;
   width: 102%;
@@ -455,14 +456,14 @@ p {
   z-index: -1;
 }
 
-.footer .footer1 .form .email .alert-message span {
+.footer .footer-top .form .email .alert-message span {
   font-size: 1.2rem;
   font-weight: 400;
   color: white;
   font-style: italic;
 }
 
-.footer .footer1 .form .email .error-icon {
+.footer .footer-top .form .email .error-icon {
   position: absolute;
   display: none;
   width: 20px;
@@ -472,47 +473,47 @@ p {
   z-index: 100;
 }
 
-.footer .footer1 .form .email .error-icon.show {
+.footer .footer-top .form .email .error-icon.show {
   display: block;
 }
 
-.footer .footer1 .form .email .danger {
+.footer .footer-top .form .email .danger {
   display: flex;
   background-color: #fa5757;
 }
 
-.footer .footer1 .form .email .success {
+.footer .footer-top .form .email .success {
   display: flex;
   background-color: green;
 }
 
-.footer .footer1 .form-btn {
+.footer .footer-top .form-btn {
   margin-left: 2rem;
 }
 
-.footer .footer1 .form-btn:hover {
+.footer .footer-top .form-btn:hover {
   background-color: white;
 }
 
-.footer2 {
+.footer-bottom {
   padding: 2rem 0;
   justify-content: space-between;
 }
 
-.footer2 a {
+.footer-bottom a {
   color: white;
 }
 
-.footer2 .footer-media a {
+.footer-bottom .footer-media a {
   transition: transform 0.25s;
 }
 
-.footer2 .footer-media a:hover {
+.footer-bottom .footer-media a:hover {
   transform: scale(1.2);
   filter: invert(0%) grayscale(100%) brightness(50%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(2);
 }
 
-.footer2 .footer-media a:last-child {
+.footer-bottom .footer-media a:last-child {
   margin-left: 3rem;
 }
 
@@ -521,12 +522,6 @@ p {
 /* ==END-FOOTER== */
 /*==MEDIA-QUERIES== */
 @media (max-width: 868px) {
-  .container {
-    padding: 1rem;
-  }
-  .section-header {
-    width: 100%;
-  }
   .active {
     flex-direction: column;
   }
@@ -541,6 +536,9 @@ p {
     margin: 7.5rem 0;
     width: 100%;
     text-align: center;
+  }
+  .features-wrapper {
+    margin-bottom: 5rem;
   }
   .features-wrapper .btn-container {
     flex-direction: column;
@@ -571,16 +569,16 @@ p {
   .question {
     width: 90%;
   }
-  .footer .footer1 p {
+  .footer .footer-top p {
     width: 60%;
   }
-  .footer2 {
+  .footer-bottom {
     padding: 3rem 0;
   }
-  .footer2 a {
+  .footer-bottom a {
     margin-top: 3rem;
   }
-  .footer2,
+  .footer-bottom,
   .footer-nav {
     flex-direction: column;
   }
@@ -594,16 +592,16 @@ p {
     margin-right: 0;
     margin-bottom: 1rem;
   }
-  .footer .footer1 {
+  .footer .footer-top {
     padding: 1rem;
   }
-  .footer .footer1 p {
+  .footer .footer-top p {
     width: 100%;
   }
-  .footer .footer1 .form {
+  .footer .footer-top .form {
     flex-direction: column;
   }
-  .footer .footer1 .form button {
+  .footer .footer-top .form button {
     margin-left: 0;
     margin-top: 2rem;
     max-width: 350px;
