@@ -572,11 +572,13 @@ p {
     width: 90%;
   }
   .footer .footer1 p {
-    border: 2px solid red;
     width: 60%;
   }
+  .footer2 {
+    padding: 3rem 0;
+  }
   .footer2 a {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   .footer2,
   .footer-nav {

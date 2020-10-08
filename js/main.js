@@ -26,7 +26,6 @@ featureCon.addEventListener("click", (e) => {
 
 /* ==FAQ== */
 const questions = document.querySelectorAll(".question");
-
 questions.forEach((question) => {
     const questionbtn = question.querySelector(".question-btn");
 
