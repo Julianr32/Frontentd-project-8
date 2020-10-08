@@ -1,6 +1,6 @@
-/* ==TOGGLE-MENU== */
-/* ==END-TOGGLE-MENU== */
-/* ==TABS== */
+/* ======TOGGLE-MENU====== */
+/* ======END-TOGGLE-MENU====== */
+/* ======TABS====== */
 const tabBtns = document.querySelectorAll(".tab-btn");
 const featuresCont = document.querySelector(".features-wrapper");
 const feature = document.querySelectorAll(".feature");
@@ -22,9 +22,9 @@ featuresCont.addEventListener("click", (e) => {
         element.classList.add("active");
     }
 });
-/* ==END-TABS==*/
+/* ======END-TABS======*/
 
-/* ==FAQ== */
+/* ======FAQ====== */
 const questions = document.querySelectorAll(".question");
 questions.forEach((question) => {
     const questionbtn = question.querySelector(".question-btn");
@@ -39,27 +39,24 @@ questions.forEach((question) => {
         question.classList.toggle("show");
     });
 });
-/* ==END-FAQ== */
+/* ======END-FAQ====== */
 
-/* ==ALERT== */
+/* ======ALERT====== */
 const submitEmail = document.querySelector(".form-btn");
 const alert = document.querySelector(".alert-span");
 const alertCon = document.querySelector(".alert-message");
 const email = document.getElementById("input-email");
 const errorIcon = document.querySelector(".error-icon");
-
 //Event listeners.
 submitEmail.addEventListener("click", () => {
     submit();
 });
-
 email.addEventListener("keyup", (e) => {
     const key = e.key;
     if (key === "Enter") {
         submit();
     }
 });
-
 //Submit email function.
 function submit() {
     if (email.value.length > 0) {
@@ -93,4 +90,4 @@ function displayAlert(text, action) {
 function emailIsValid(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
-/* ==END-ALERT== */
+/* ======END-ALERT====== */
