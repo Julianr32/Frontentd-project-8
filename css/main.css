@@ -339,8 +339,8 @@ p {
 }
 
 .question {
-  padding: 1.5rem;
   width: 50%;
+  padding: 1.5rem;
   border-top: 2px solid #e9e9e9;
 }
 
@@ -468,8 +468,7 @@ p {
   width: 20px;
   top: 20%;
   right: 2%;
-  opacity: .99;
-  z-index: 100;
+  pointer-events: none;
 }
 
 .footer .footer-top .form .email .error-icon.show {
@@ -531,7 +530,7 @@ p {
     flex-direction: column-reverse;
   }
   .hero__img {
-    margin-top: 5rem;
+    margin-top: 2rem;
     max-width: 400px;
   }
   .hero__info {
@@ -552,7 +551,7 @@ p {
   }
   .feature__info {
     width: 100%;
-    margin: 5rem 0 5rem 0;
+    margin: 3.5rem 0 5rem 0;
     text-align: center;
   }
   .feature__img {
@@ -563,13 +562,14 @@ p {
   }
   .cards-wrapper .card {
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .cards-wrapper .card-2,
   .cards-wrapper .card-3 {
     margin-top: 0;
   }
   .question {
-    width: 90%;
+    width: 100%;
   }
   .footer .footer-top p {
     width: 60%;

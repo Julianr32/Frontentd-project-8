@@ -2,10 +2,10 @@
 /* ==END-TOGGLE-MENU== */
 /* ==TABS== */
 const tabBtns = document.querySelectorAll(".tab-btn");
-const featureCon = document.querySelector(".features-wrapper");
+const featuresCont = document.querySelector(".features-wrapper");
 const feature = document.querySelectorAll(".feature");
 
-featureCon.addEventListener("click", (e) => {
+featuresCont.addEventListener("click", (e) => {
 
     const id = e.target.dataset.id;
     if (id) {
@@ -89,7 +89,7 @@ function displayAlert(text, action) {
     }, 3000);
 };
 
-//Function thats validete the email.
+//Function that validates the email.
 function emailIsValid(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
