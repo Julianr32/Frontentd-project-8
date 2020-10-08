@@ -84,7 +84,7 @@ p {
 }
 
 .pdy-5 {
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 .btn {
@@ -266,7 +266,7 @@ p {
 
 .feature__info {
   width: 35%;
-  margin-right: 5rem;
+  margin-right: 7.5rem;
 }
 
 /*SHOW TAB*/
@@ -279,7 +279,6 @@ p {
 /* ==END-FEATURES== */
 /* ==EXTENSION== */
 .cards-wrapper {
-  margin-top: 5rem;
   justify-content: space-evenly;
 }
 
@@ -522,6 +521,9 @@ p {
 /* ==END-FOOTER== */
 /*==MEDIA-QUERIES== */
 @media (max-width: 868px) {
+  .pdy-5 {
+    padding: 0;
+  }
   .active {
     flex-direction: column;
   }
