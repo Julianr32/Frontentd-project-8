@@ -37,7 +37,7 @@ sans-serif;
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -572,6 +572,7 @@ p {
   }
 
   .hero {
+    overflow-x: hidden;
     flex-direction: column-reverse;
 
     &__img {
