@@ -163,11 +163,15 @@ p {
   font-size: 1.6rem;
   font-weight: 400;
   margin: 0 2rem;
-  transition: color .25s;
+  transition: all .25s;
 }
 
 .nav__link:hover {
-  color: #fa5757;
+  color: #fa5757 !important;
+}
+
+.nav__list li:last-of-type a {
+  color: white;
 }
 
 /* ==END HEADER== */
@@ -186,9 +190,6 @@ p {
 .hero__info a {
   width: 100%;
   max-width: 180px;
-}
-
-.hero__info a:not(:last-of-type) {
   margin-right: 2rem;
 }
 
@@ -606,7 +607,7 @@ p {
     width: 140px;
   }
   .header__logo .menu__toggle {
-    display: block;
+    display: block !important;
     cursor: pointer;
   }
   .nav {
@@ -658,9 +659,12 @@ p {
   .feature__img {
     max-width: 300px;
   }
-  .hero__info a:not(:last-of-type) {
-    margin-right: 0;
-    margin-bottom: 1rem;
+  .hero__info {
+    text-align: center;
+  }
+  .hero__info a {
+    display: block;
+    margin: 0 auto 1rem auto;
   }
   .footer .footer-top {
     padding: 1rem;

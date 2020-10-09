@@ -189,11 +189,15 @@ p {
   font-size: $xsmall-fnt;
   font-weight: $regular-fnt;
   margin: 0 2rem;
-  transition: color .25s;
+  transition: all .25s;
 
   &:hover{
-    color: $clr-secondary;
+    color: $clr-secondary !important;
   }
+}
+
+.nav__list li:last-of-type a {
+  color: $clr-white;
 }
 /* ==END HEADER== */
 
@@ -210,9 +214,6 @@ p {
     a {
       width: 100%;
       max-width: 180px;
-    }
-
-    a:not(:last-of-type) {
       margin-right: 2rem;
     }
   }
@@ -554,7 +555,6 @@ p {
 
 /*==MEDIA-QUERIES== */
 @media (max-width: 868px) {
-
   .pdy-4 {
     padding: 0;
   }
@@ -660,7 +660,7 @@ p {
       }
   
       .menu__toggle{
-        display: block;
+        display: block !important;
         cursor: pointer;
       }
     }
@@ -723,9 +723,10 @@ p {
   }
 
   .hero__info {
-    a:not(:last-of-type) {
-      margin-right: 0;
-      margin-bottom: 1rem;
+    text-align: center;
+    a{
+        display: block;
+        margin: 0 auto 1rem auto;
     }
   }
 
