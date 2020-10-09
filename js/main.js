@@ -3,20 +3,28 @@ const openIcon = document.querySelector(".open");
 const closeIcon = document.querySelector(".close");
 const menuToggle = document.querySelector(".menu__toggle");
 const menu = document.querySelector(".nav");
+const links = document.querySelectorAll(".nav__item");
 
 menuToggle.addEventListener("click", ()=>{
     menu.classList.toggle("show-menu");
     openIcon.classList.toggle("hide");
     closeIcon.classList.toggle("show");
 });
+
+//Remove menu on menu item click.
+links.forEach((e)=>{
+    e.addEventListener("click", ()=>{
+        menu.classList.remove("show-menu");
+    })
+});
 /* ======END-TOGGLE-MENU====== */
+
 /* ======TABS====== */
 const tabBtns = document.querySelectorAll(".tab-btn");
 const featuresCont = document.querySelector(".features-wrapper");
 const feature = document.querySelectorAll(".feature");
 
 featuresCont.addEventListener("click", (e) => {
-
     const id = e.target.dataset.id;
     if (id) {
         //Remove active class from buttons.
