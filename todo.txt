@@ -1,8 +1,0 @@
-
--Find out how to do FAQ with javascript.
-
--Form alert with javascript.
-
--1 h1.
-
--4 h2.
