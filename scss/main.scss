@@ -563,9 +563,6 @@ p {
 /*==MEDIA-QUERIES== */
 @media (max-width: 868px) {
 
-  .header{
-    overflow-x: hidden;
-  }
   .pdy-5 {
     padding: 0;
   }
@@ -579,6 +576,8 @@ p {
   }
 
   .hero {
+    overflow-x: hidden;
+
     flex-direction: column-reverse;
 
     &__img {
