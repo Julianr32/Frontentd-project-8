@@ -599,6 +599,7 @@ p {
     background-color: white;
     position: fixed;
     z-index: 100;
+    box-shadow: 0 3px 5px rgba(2, 2, 2, 0.049);
   }
   .header__logo {
     width: 100%;

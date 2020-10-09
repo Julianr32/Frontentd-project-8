@@ -651,6 +651,7 @@ p {
     background-color: $clr-white;
     position: fixed;
     z-index: 100;
+    box-shadow: 0 3px 5px rgba(2, 2, 2, 0.049);
 
     &__logo{
       width: 100%;
