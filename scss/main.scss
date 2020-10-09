@@ -9,6 +9,7 @@ $clr-3: hsl(229, 8%, 60%);
 $clr-4: hsl(229, 31%, 21%);
 $clr-5: #e9e9e9;
 $clr-6: hsla(229, 31%, 21%, 0.898);
+$clr-7: hsla(229, 8%, 60%, 0.481);
 $clr-white: hsl(0, 100%, 100%);
 $clr-black: hsl(0, 0%, 0%);
 
@@ -23,8 +24,7 @@ $xxsmall-fnt: 1.4rem;
 $semibold-fnt: 500;
 $regular-fnt: 400;
 
-$primary-font: "Rubik",
-sans-serif;
+$primary-font: "Rubik", sans-serif;
 
 /* ===RESET=== */
 *,
@@ -55,7 +55,6 @@ a {
 
 img {
   width: 100%;
-  display: block;
   height: auto;
 }
 
@@ -115,7 +114,6 @@ p {
 .btn {
   text-align: center;
   padding: 1rem 2rem;
-  display: inline-block;
   font-weight: $semibold-fnt;
   font-size: $xxsmall-fnt;
   text-transform: capitalize;
@@ -169,33 +167,37 @@ p {
 /*===START-GLOBAL-STYLING===*/
 
 /* ==HEADER== */
-.header {
-  min-height: 15vh;
-}
-
-.nav {
-  padding: 4rem 1.5rem 0 1.5rem;
+.header{
+  max-width: 1100px;
+  height: 15vh;
+  width: 100%;
   justify-content: space-between;
-}
+  margin: 0 auto;
 
-.nav__link {
-  margin: 0 3rem;
-  color: $clr-4;
-  font-size: $xsmall-fnt;
-  font-weight: $regular-fnt;
-  text-transform: uppercase;
-  transition: color 0.25s;
+  &__logo{
+    height: 100%;
+    justify-content: space-between;
 
-
-  &:hover {
-    color: $clr-secondary;
+    .menu__toggle{
+      display: none;
+    }
   }
 }
 
-.nav__logo {
-  max-width: 135px;
-}
 
+
+.nav__link{
+  color: $clr-4;
+  text-transform: uppercase;
+  font-size: $xsmall-fnt;
+  font-weight: $regular-fnt;
+  margin: 0 2rem;
+  transition: color .25s;
+
+  &:hover{
+    color: $clr-secondary;
+  }
+}
 /* ==END HEADER== */
 
 /* ==HERO== */
@@ -204,6 +206,7 @@ p {
   justify-content: space-between;
 
   &__info {
+    margin-top: 1rem;
     width: 50%;
     text-align: left;
 
@@ -374,7 +377,6 @@ p {
   padding: 1.5rem;
   border-top: 2px solid $clr-5;
 
-
   &__title {
     justify-content: space-between;
 
@@ -420,7 +422,8 @@ p {
 
 .show.question .question-btn.rotate {
   transform: rotate(180deg);
-  filter: invert(100%) grayscale(100%) brightness(50%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(2);
+  filter: invert(100%) grayscale(100%) brightness(50%) sepia(100%)
+    hue-rotate(-50deg) saturate(600%) contrast(2);
 }
 
 /* End Show answer */
@@ -489,7 +492,6 @@ p {
             color: $clr-white;
             font-style: italic;
           }
-
         }
 
         .error-icon {
@@ -541,7 +543,8 @@ p {
 
       &:hover {
         transform: scale(1.2);
-        filter: invert(0%) grayscale(100%) brightness(50%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(2);
+        filter: invert(0%) grayscale(100%) brightness(50%) sepia(100%)
+          hue-rotate(-50deg) saturate(600%) contrast(2);
       }
     }
 
@@ -572,7 +575,6 @@ p {
   }
 
   .hero {
-    overflow-x: hidden;
     flex-direction: column-reverse;
 
     &__img {
@@ -581,7 +583,7 @@ p {
     }
 
     &__info {
-      margin: 3rem 0 7.5rem 0;
+      margin: 5rem 0;
       width: 100%;
       text-align: center;
     }
@@ -644,6 +646,80 @@ p {
   .footer-bottom,
   .footer-nav {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 768px){
+  .header{
+    padding: 1rem;
+    height: 10vh;
+    flex-direction: column;
+    background-color: $clr-white;
+    position: fixed;
+    z-index: 100;
+
+    &__logo{
+      width: 100%;
+      
+      .logo{
+        width: 140px;
+      }
+  
+      .menu__toggle{
+        display: block;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .nav{
+    padding: 1rem;
+    background-color: $clr-6;
+    position: fixed;
+    transform: translateX(105%);
+    opacity: 0;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    transition: transform .25s, opacity .25s linear;
+  }
+  
+  .show-menu{
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .close{
+    display: none;
+  }
+  
+  .show{
+    display: block;
+  }
+  
+  .nav__list {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav__item{
+    width: 90%;
+    padding: 2.5rem;
+    border-top: 2px solid $clr-7;
+  }
+  .nav__link{
+    margin-left: 0;
+    color: $clr-white;
+    letter-spacing: 3px;
+  }
+
+  .hero{
+    padding-top: 10vh;  
   }
 }
 

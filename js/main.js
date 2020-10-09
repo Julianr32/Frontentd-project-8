@@ -1,4 +1,15 @@
 /* ======TOGGLE-MENU====== */
+const openIcon = document.querySelector(".open");
+const closeIcon = document.querySelector(".close");
+const logo = document.querySelector(".logo");
+const menuToggle = document.querySelector(".menu__toggle");
+const menu = document.querySelector(".nav");
+
+menuToggle.addEventListener("click", ()=>{
+    menu.classList.toggle("show-menu");
+    openIcon.classList.toggle("hide");
+    closeIcon.classList.toggle("show");
+});
 /* ======END-TOGGLE-MENU====== */
 /* ======TABS====== */
 const tabBtns = document.querySelectorAll(".tab-btn");
