@@ -36,8 +36,8 @@ $primary-font: "Rubik", sans-serif;
 }
 
 html {
+  overflow-x: hidden !important;
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 
 body {
@@ -673,11 +673,11 @@ p {
   }
 
   .nav{
+    opacity: 0;
+    transform: translateX(105%);
     padding: 1rem;
     background-color: $clr-6;
     position: fixed;
-    transform: translateX(105%);
-    opacity: 0;
     top: 10vh;
     left: 0;
     right: 0;
