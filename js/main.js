@@ -1,7 +1,6 @@
 /* ======TOGGLE-MENU====== */
 const openIcon = document.querySelector(".open");
 const closeIcon = document.querySelector(".close");
-const logo = document.querySelector(".logo");
 const menuToggle = document.querySelector(".menu__toggle");
 const menu = document.querySelector(".nav");
 
